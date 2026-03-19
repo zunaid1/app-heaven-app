@@ -1,10 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router';
+import Logo from './Logo';
+
 
 const Navbar = () => {
 	const NavItems = <>
 		<NavLink className="mr-2 text-xl font-bold" to="/">Home</NavLink>
-		<NavLink className="mr-2 text-xl font-bold" to="/">All Apps</NavLink>
+		<NavLink className="mr-2 text-xl font-bold" to="/about">About</NavLink>
 		<NavLink className="mr-2 text-xl font-bold" to="/">Installed Apps</NavLink>
 	</>
 
@@ -26,7 +28,10 @@ const Navbar = () => {
 
 					</ul>
 				</div>
-				<a className="btn btn-ghost text-xl">AppHeaven</a>
+				{/* <a className="btn btn-ghost text-xl">
+					<img className='w-12 h-12' src={logo} alt="" /> <span className='font-bold'>App</span> <span className='text-blue-900 font-bold'>Heaven</span>
+				</a> */}
+				<Logo></Logo>
 			</div>
 			<div className="navbar-center hidden lg:flex">
 				<ul className="menu menu-horizontal px-1">

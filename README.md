@@ -1,9 +1,9 @@
-# Live Link:
+# App Heaven:
 
 ## Live Link:
-🔗 [Vercel](https://app-heaven-app.vercel.app/) https://app-heaven-app.vercel.app/
+🔗 [Vercel:: ](https://app-heaven-app.vercel.app/) https://app-heaven-app.vercel.app/
 
-🔗 [Netlify Live](https://app-heaven.netlify.app/) https://app-heaven.netlify.app/
+🔗 [Netlify:: ](https://app-heaven.netlify.app/) https://app-heaven.netlify.app/
 
 
 ## Github [`Code`]
