@@ -1,13 +1,17 @@
 import React from 'react';
 import { NavLink } from 'react-router';
 import Logo from './Logo';
+import { FaHome } from "react-icons/fa";
+import GradientButton from './GradientButton';
+
+
 
 
 const Navbar = () => {
 	const NavItems = <>
-		<NavLink className="mr-2 text-xl font-bold" to="/">Home</NavLink>
-		<NavLink className="mr-2 text-xl font-bold" to="/about">About</NavLink>
-		<NavLink className="mr-2 text-xl font-bold" to="/">Installed Apps</NavLink>
+		<NavLink className="mr-6 text-xl font-bold" to="/" ><i class="fa-solid fa-house"></i> Home</NavLink>
+		<NavLink className="mr-6 text-xl font-bold" to="/about"> <i class="fa-brands fa-app-store"></i> Apps</NavLink>
+		<NavLink className="mr-6 text-xl font-bold" to="/"><i class="fa-solid fa-download"></i> Installation </NavLink>
 	</>
 
 
@@ -41,7 +45,7 @@ const Navbar = () => {
 				</ul>
 			</div>
 			<div className="navbar-end">
-				<a className="btn">Button</a>
+				<GradientButton></GradientButton>
 			</div>
 		</div>
 	);
