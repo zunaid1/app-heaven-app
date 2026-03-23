@@ -9,9 +9,9 @@ import GradientButton from './GradientButton';
 
 const Navbar = () => {
 	const NavItems = <>
-		<NavLink className="mr-6 text-xl font-bold" to="/" ><i class="fa-solid fa-house"></i> Home</NavLink>
-		<NavLink className="mr-6 text-xl font-bold" to="/about"> <i class="fa-brands fa-app-store"></i> Apps</NavLink>
-		<NavLink className="mr-6 text-xl font-bold" to="/"><i class="fa-solid fa-download"></i> Installation </NavLink>
+		<NavLink className="mr-6 text-xl font-bold" to="/" ><i className="fa-solid fa-house"></i> Home</NavLink>
+		<NavLink className="mr-6 text-xl font-bold" to="/about"> <i className="fa-brands fa-app-store"></i> Apps</NavLink>
+		<NavLink className="mr-6 text-xl font-bold" to="/"><i className="fa-solid fa-download"></i> Installation </NavLink>
 	</>
 
 

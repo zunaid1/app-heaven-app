@@ -2,991 +2,381 @@
   {
     "id": 1,
     "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png",
-    "title": "Demo App 1",
-    "companyName": "Demo Company 1",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 20,
-    "reviews": 500,
-    "ratingAvg": 4.0,
-    "downloads": 10000,
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "description": "The official Gmail app brings the best of Google to your Android phone or tablet with robust security and real-time notifications.",
+    "size": 31,
+    "reviews": 12500000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 20
-      },
-      {
-        "name": "2 star",
-        "count": 30
-      },
-      {
-        "name": "3 star",
-        "count": 60
-      },
-      {
-        "name": "4 star",
-        "count": 140
-      },
-      {
-        "name": "5 star",
-        "count": 250
-      }
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 8400000 }
     ]
   },
   {
     "id": 2,
     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
-    "title": "Demo App 2",
-    "companyName": "Demo Company 2",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 21,
-    "reviews": 537,
-    "ratingAvg": 4.1,
-    "downloads": 12500,
+    "title": "Instagram",
+    "companyName": "Instagram",
+    "description": "Bringing you closer to the people and things you love. Connect with friends and share what you’re up to.",
+    "size": 48,
+    "reviews": 145000000,
+    "ratingAvg": 4.0,
+    "downloads": 5000000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 21
-      },
-      {
-        "name": "2 star",
-        "count": 32
-      },
-      {
-        "name": "3 star",
-        "count": 63
-      },
-      {
-        "name": "4 star",
-        "count": 145
-      },
-      {
-        "name": "5 star",
-        "count": 258
-      }
+      { "name": "1 star", "count": 15000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 90000000 }
     ]
   },
   {
     "id": 3,
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
-    "title": "Demo App 3",
-    "companyName": "Demo Company 3",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 22,
-    "reviews": 574,
-    "ratingAvg": 4.2,
-    "downloads": 15000,
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "description": "Simple, reliable, and private messaging and calling, available all over the world.",
+    "size": 39,
+    "reviews": 175000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 22
-      },
-      {
-        "name": "2 star",
-        "count": 34
-      },
-      {
-        "name": "3 star",
-        "count": 66
-      },
-      {
-        "name": "4 star",
-        "count": 150
-      },
-      {
-        "name": "5 star",
-        "count": 266
-      }
+      { "name": "1 star", "count": 12000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 130000000 }
     ]
   },
   {
     "id": 4,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg",
-    "title": "Demo App 4",
-    "companyName": "Demo Company 4",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 23,
-    "reviews": 611,
-    "ratingAvg": 4.2,
-    "downloads": 17500,
+    "image": "https://i.ibb.co.com/dwRx4hBV/Microsoft-Teams.png",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "description": "Whether you’re working with teammates or organizing a community activity, Teams helps get things done.",
+    "size": 65,
+    "reviews": 6200000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 23
-      },
-      {
-        "name": "2 star",
-        "count": 36
-      },
-      {
-        "name": "3 star",
-        "count": 69
-      },
-      {
-        "name": "4 star",
-        "count": 155
-      },
-      {
-        "name": "5 star",
-        "count": 274
-      }
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 4800000 }
     ]
   },
   {
     "id": 5,
     "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
-    "title": "Demo App 5",
-    "companyName": "Demo Company 5",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 24,
-    "reviews": 648,
-    "ratingAvg": 4.3,
-    "downloads": 20000,
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "description": "Watch TV shows and movies recommended just for you, including award-winning series and documentaries.",
+    "size": 22,
+    "reviews": 13000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 24
-      },
-      {
-        "name": "2 star",
-        "count": 38
-      },
-      {
-        "name": "3 star",
-        "count": 72
-      },
-      {
-        "name": "4 star",
-        "count": 160
-      },
-      {
-        "name": "5 star",
-        "count": 282
-      }
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 9900000 }
     ]
   },
   {
     "id": 6,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Spotify_icon.png",
-    "title": "Demo App 6",
-    "companyName": "Demo Company 6",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 25,
-    "reviews": 685,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "description": "Listen to the songs you love and discover new music and podcasts from all over the world.",
+    "size": 33,
+    "reviews": 30000000,
     "ratingAvg": 4.4,
-    "downloads": 22500,
+    "downloads": 1000000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 25
-      },
-      {
-        "name": "2 star",
-        "count": 40
-      },
-      {
-        "name": "3 star",
-        "count": 75
-      },
-      {
-        "name": "4 star",
-        "count": 165
-      },
-      {
-        "name": "5 star",
-        "count": 290
-      }
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1700000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 22000000 }
     ]
   },
   {
     "id": 7,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_Maps_icon_%282020%29.svg",
-    "title": "Demo App 7",
-    "companyName": "Demo Company 7",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 26,
-    "reviews": 722,
-    "ratingAvg": 4.5,
-    "downloads": 25000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Google_Maps_icon_%282015-2020%29.svg",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "description": "Navigate your world faster and easier with real-time GPS navigation, traffic, and transit info.",
+    "size": 54,
+    "reviews": 17000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 26
-      },
-      {
-        "name": "2 star",
-        "count": 42
-      },
-      {
-        "name": "3 star",
-        "count": 78
-      },
-      {
-        "name": "4 star",
-        "count": 170
-      },
-      {
-        "name": "5 star",
-        "count": 298
-      }
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 12000000 }
     ]
   },
   {
     "id": 8,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
-    "title": "Demo App 8",
-    "companyName": "Demo Company 8",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 27,
-    "reviews": 759,
-    "ratingAvg": 4.6,
-    "downloads": 27500,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Keep up with friends, share updates, and stay connected to communities that interest you.",
+    "size": 52,
+    "reviews": 135000000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 27
-      },
-      {
-        "name": "2 star",
-        "count": 44
-      },
-      {
-        "name": "3 star",
-        "count": 81
-      },
-      {
-        "name": "4 star",
-        "count": 175
-      },
-      {
-        "name": "5 star",
-        "count": 306
-      }
+      { "name": "1 star", "count": 15000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 17000000 },
+      { "name": "5 star", "count": 85000000 }
     ]
   },
   {
     "id": 9,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Twitter_icon.svg",
-    "title": "Demo App 9",
-    "companyName": "Demo Company 9",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 28,
-    "reviews": 796,
-    "ratingAvg": 4.6,
-    "downloads": 30000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg",
+    "title": "X",
+    "companyName": "X Corp.",
+    "description": "The digital town square. Host a space, share your thoughts, and stay updated on world news.",
+    "size": 41,
+    "reviews": 22000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 28
-      },
-      {
-        "name": "2 star",
-        "count": 46
-      },
-      {
-        "name": "3 star",
-        "count": 84
-      },
-      {
-        "name": "4 star",
-        "count": 180
-      },
-      {
-        "name": "5 star",
-        "count": 314
-      }
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 13000000 }
     ]
   },
   {
     "id": 10,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/LinkedIn_icon.svg",
-    "title": "Demo App 10",
-    "companyName": "Demo Company 10",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 29,
-    "reviews": 833,
-    "ratingAvg": 4.7,
-    "downloads": 32500,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn",
+    "description": "Manage your professional identity. Build and engage with your professional network.",
+    "size": 34,
+    "reviews": 2600000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 29
-      },
-      {
-        "name": "2 star",
-        "count": 48
-      },
-      {
-        "name": "3 star",
-        "count": 87
-      },
-      {
-        "name": "4 star",
-        "count": 185
-      },
-      {
-        "name": "5 star",
-        "count": 322
-      }
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1900000 }
     ]
   },
   {
     "id": 11,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png",
-    "title": "Demo App 11",
-    "companyName": "Demo Company 11",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 30,
-    "reviews": 870,
-    "ratingAvg": 4.0,
-    "downloads": 35000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "Get the official YouTube app for Android phones and tablets. See what the world is watching.",
+    "size": 45,
+    "reviews": 150000000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 30
-      },
-      {
-        "name": "2 star",
-        "count": 50
-      },
-      {
-        "name": "3 star",
-        "count": 90
-      },
-      {
-        "name": "4 star",
-        "count": 190
-      },
-      {
-        "name": "5 star",
-        "count": 330
-      }
+      { "name": "1 star", "count": 8000000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 120000000 }
     ]
   },
   {
     "id": 12,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
-    "title": "Demo App 12",
-    "companyName": "Demo Company 12",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 31,
-    "reviews": 907,
-    "ratingAvg": 4.1,
-    "downloads": 37500,
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg",
+    "title": "TikTok",
+    "companyName": "TikTok Ltd.",
+    "description": "TikTok is the destination for mobile videos. Find short, exciting, and spontaneous content.",
+    "size": 95,
+    "reviews": 60000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 31
-      },
-      {
-        "name": "2 star",
-        "count": 52
-      },
-      {
-        "name": "3 star",
-        "count": 93
-      },
-      {
-        "name": "4 star",
-        "count": 195
-      },
-      {
-        "name": "5 star",
-        "count": 338
-      }
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 45000000 }
     ]
   },
   {
     "id": 13,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
-    "title": "Demo App 13",
-    "companyName": "Demo Company 13",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 32,
-    "reviews": 944,
+    "image": "https://i.pcmag.com/imagery/reviews/02phw91buvlos36qnbbzoir-12-hero-image-gallery.fit_scale.size_1028x578.v1569471162.png",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "description": "Google Drive, part of Google Workspace, is a safe place to back up and access all your files.",
+    "size": 28,
+    "reviews": 8000000,
     "ratingAvg": 4.2,
-    "downloads": 40000,
+    "downloads": 5000000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 32
-      },
-      {
-        "name": "2 star",
-        "count": 54
-      },
-      {
-        "name": "3 star",
-        "count": 96
-      },
-      {
-        "name": "4 star",
-        "count": 200
-      },
-      {
-        "name": "5 star",
-        "count": 346
-      }
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 5500000 }
     ]
   },
   {
     "id": 14,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg",
-    "title": "Demo App 14",
-    "companyName": "Demo Company 14",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 33,
-    "reviews": 981,
-    "ratingAvg": 4.2,
-    "downloads": 42500,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Amazon_icon.svg",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "description": "Browse, search, get product details, read reviews, and purchase millions of products.",
+    "size": 58,
+    "reviews": 3500000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 33
-      },
-      {
-        "name": "2 star",
-        "count": 56
-      },
-      {
-        "name": "3 star",
-        "count": 99
-      },
-      {
-        "name": "4 star",
-        "count": 205
-      },
-      {
-        "name": "5 star",
-        "count": 354
-      }
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 2300000 }
     ]
   },
   {
     "id": 15,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
-    "title": "Demo App 15",
-    "companyName": "Demo Company 15",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 34,
-    "reviews": 1018,
-    "ratingAvg": 4.3,
-    "downloads": 45000,
+    "image": "https://play-lh.googleusercontent.com/mzJpTCsTW_FuR6YqOPaLHrSEVCSJuXzCljdxnCKhVZMcu6EESZBQTCHxMh8slVtnKqo=w240-h480-rw",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "description": "Slack brings team communication and collaboration into one place so you can get more work done.",
+    "size": 42,
+    "reviews": 400000,
+    "ratingAvg": 4.0,
+    "downloads": 10000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 34
-      },
-      {
-        "name": "2 star",
-        "count": 58
-      },
-      {
-        "name": "3 star",
-        "count": 102
-      },
-      {
-        "name": "4 star",
-        "count": 210
-      },
-      {
-        "name": "5 star",
-        "count": 362
-      }
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 200000 }
     ]
   },
   {
     "id": 16,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Spotify_icon.png",
-    "title": "Demo App 16",
-    "companyName": "Demo Company 16",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 35,
-    "reviews": 1055,
-    "ratingAvg": 4.4,
-    "downloads": 47500,
+    "image": "https://play-lh.googleusercontent.com/Y6epalNGUKPgWyQpDCgVL621EgmOmXBWfQoJdaM8v0irKWEII5bEDvpaWp7Mey2MVg=w240-h480-rw",
+    "title": "Twitch",
+    "companyName": "Twitch Interactive, Inc.",
+    "description": "Watch livestream gaming videos, Esports, and any broadcast on your Android device.",
+    "size": 60,
+    "reviews": 5500000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 35
-      },
-      {
-        "name": "2 star",
-        "count": 60
-      },
-      {
-        "name": "3 star",
-        "count": 105
-      },
-      {
-        "name": "4 star",
-        "count": 215
-      },
-      {
-        "name": "5 star",
-        "count": 370
-      }
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 4000000 }
     ]
   },
   {
     "id": 17,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_Maps_icon_%282020%29.svg",
-    "title": "Demo App 17",
-    "companyName": "Demo Company 17",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 36,
-    "reviews": 1092,
-    "ratingAvg": 4.5,
-    "downloads": 50000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "description": "Pure instant messaging — simple, fast, secure, and synced across all your devices.",
+    "size": 32,
+    "reviews": 12000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 36
-      },
-      {
-        "name": "2 star",
-        "count": 62
-      },
-      {
-        "name": "3 star",
-        "count": 108
-      },
-      {
-        "name": "4 star",
-        "count": 220
-      },
-      {
-        "name": "5 star",
-        "count": 378
-      }
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 8700000 }
     ]
   },
   {
     "id": 18,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
-    "title": "Demo App 18",
-    "companyName": "Demo Company 18",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 37,
-    "reviews": 1129,
+    "image": "https://play-lh.googleusercontent.com/y1yV7oGqfPvaEiA2-wGxj54g6pznm_dkWOISrn_ZuamPO-EsSwJpePLX1eHkDpEyrhk=w240-h480-rw",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "description": "Google Photos is a smarter home for all your photos and videos, made for the way you take photos today.",
+    "size": 40,
+    "reviews": 45000000,
     "ratingAvg": 4.6,
-    "downloads": 52500,
+    "downloads": 5000000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 37
-      },
-      {
-        "name": "2 star",
-        "count": 64
-      },
-      {
-        "name": "3 star",
-        "count": 111
-      },
-      {
-        "name": "4 star",
-        "count": 225
-      },
-      {
-        "name": "5 star",
-        "count": 386
-      }
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 6500000 },
+      { "name": "5 star", "count": 35000000 }
     ]
   },
   {
     "id": 19,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Twitter_icon.svg",
-    "title": "Demo App 19",
-    "companyName": "Demo Company 19",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 38,
-    "reviews": 1166,
+    "id_name": "Pinterest",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest",
+    "description": "Discover recipes, home ideas, style inspiration and other ideas to try.",
+    "size": 25,
+    "reviews": 9500000,
     "ratingAvg": 4.6,
-    "downloads": 55000,
+    "downloads": 500000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 38
-      },
-      {
-        "name": "2 star",
-        "count": 66
-      },
-      {
-        "name": "3 star",
-        "count": 114
-      },
-      {
-        "name": "4 star",
-        "count": 230
-      },
-      {
-        "name": "5 star",
-        "count": 394
-      }
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 450000 },
+      { "name": "4 star", "count": 1100000 },
+      { "name": "5 star", "count": 7500000 }
     ]
   },
   {
     "id": 20,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/LinkedIn_icon.svg",
-    "title": "Demo App 20",
-    "companyName": "Demo Company 20",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 39,
-    "reviews": 1203,
-    "ratingAvg": 4.7,
-    "downloads": 57500,
-    "ratings": [
-      {
-        "name": "1 star",
-        "count": 39
-      },
-      {
-        "name": "2 star",
-        "count": 68
-      },
-      {
-        "name": "3 star",
-        "count": 117
-      },
-      {
-        "name": "4 star",
-        "count": 235
-      },
-      {
-        "name": "5 star",
-        "count": 402
-      }
-    ]
-  },
-  {
-    "id": 21,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png",
-    "title": "Demo App 21",
-    "companyName": "Demo Company 21",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 40,
-    "reviews": 1240,
-    "ratingAvg": 4.0,
-    "downloads": 60000,
-    "ratings": [
-      {
-        "name": "1 star",
-        "count": 40
-      },
-      {
-        "name": "2 star",
-        "count": 70
-      },
-      {
-        "name": "3 star",
-        "count": 120
-      },
-      {
-        "name": "4 star",
-        "count": 240
-      },
-      {
-        "name": "5 star",
-        "count": 410
-      }
-    ]
-  },
-  {
-    "id": 22,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
-    "title": "Demo App 22",
-    "companyName": "Demo Company 22",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 41,
-    "reviews": 1277,
-    "ratingAvg": 4.1,
-    "downloads": 62500,
-    "ratings": [
-      {
-        "name": "1 star",
-        "count": 41
-      },
-      {
-        "name": "2 star",
-        "count": 72
-      },
-      {
-        "name": "3 star",
-        "count": 123
-      },
-      {
-        "name": "4 star",
-        "count": 245
-      },
-      {
-        "name": "5 star",
-        "count": 418
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
-    "title": "Demo App 23",
-    "companyName": "Demo Company 23",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 42,
-    "reviews": 1314,
-    "ratingAvg": 4.2,
-    "downloads": 65000,
-    "ratings": [
-      {
-        "name": "1 star",
-        "count": 42
-      },
-      {
-        "name": "2 star",
-        "count": 74
-      },
-      {
-        "name": "3 star",
-        "count": 126
-      },
-      {
-        "name": "4 star",
-        "count": 250
-      },
-      {
-        "name": "5 star",
-        "count": 426
-      }
-    ]
-  },
-  {
-    "id": 24,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg",
-    "title": "Demo App 24",
-    "companyName": "Demo Company 24",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 43,
-    "reviews": 1351,
-    "ratingAvg": 4.2,
-    "downloads": 67500,
-    "ratings": [
-      {
-        "name": "1 star",
-        "count": 43
-      },
-      {
-        "name": "2 star",
-        "count": 76
-      },
-      {
-        "name": "3 star",
-        "count": 129
-      },
-      {
-        "name": "4 star",
-        "count": 255
-      },
-      {
-        "name": "5 star",
-        "count": 434
-      }
-    ]
-  },
-  {
-    "id": 25,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
-    "title": "Demo App 25",
-    "companyName": "Demo Company 25",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 44,
-    "reviews": 1388,
-    "ratingAvg": 4.3,
-    "downloads": 70000,
-    "ratings": [
-      {
-        "name": "1 star",
-        "count": 44
-      },
-      {
-        "name": "2 star",
-        "count": 78
-      },
-      {
-        "name": "3 star",
-        "count": 132
-      },
-      {
-        "name": "4 star",
-        "count": 260
-      },
-      {
-        "name": "5 star",
-        "count": 442
-      }
-    ]
-  },
-  {
-    "id": 26,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Spotify_icon.png",
-    "title": "Demo App 26",
-    "companyName": "Demo Company 26",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 45,
-    "reviews": 1425,
-    "ratingAvg": 4.4,
-    "downloads": 72500,
-    "ratings": [
-      {
-        "name": "1 star",
-        "count": 45
-      },
-      {
-        "name": "2 star",
-        "count": 80
-      },
-      {
-        "name": "3 star",
-        "count": 135
-      },
-      {
-        "name": "4 star",
-        "count": 265
-      },
-      {
-        "name": "5 star",
-        "count": 450
-      }
-    ]
-  },
-  {
-    "id": 27,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_Maps_icon_%282020%29.svg",
-    "title": "Demo App 27",
-    "companyName": "Demo Company 27",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 46,
-    "reviews": 1462,
+    "image": "https://play-lh.googleusercontent.com/d426on0eGXUPgFtd6DEzP5xIDNGJfFTGhGjgPKjhMnXs8K_uJeDRawlvlgb9kgJ9_dIZSLW_Jw54e42XkTFp9g=w240-h480-rw",
+     "title": "BabyTV ",
+    "companyName": "Disney",
+    "description": "Join millions of families and discover BabyTV’s award-winning kids videos and nursery rhymes app, designed for little ones and 100% ad-free! BabyTV is the world’s leading TV channel for babies, toddlers and their parents, created to support preschool children in their early years. Our app offers quality kids’ videos in a safe, child-friendly environment, introducing your little one to the world around them with BabyTV’s beloved characters and educational content.",
+    "size": 21,
+    "reviews": 2500000,
     "ratingAvg": 4.5,
-    "downloads": 75000,
+    "downloads": 100000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 46
-      },
-      {
-        "name": "2 star",
-        "count": 82
-      },
-      {
-        "name": "3 star",
-        "count": 138
-      },
-      {
-        "name": "4 star",
-        "count": 270
-      },
-      {
-        "name": "5 star",
-        "count": 458
-      }
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1900000 }
     ]
   },
-  {
-    "id": 28,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
-    "title": "Demo App 28",
-    "companyName": "Demo Company 28",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 47,
-    "reviews": 1499,
-    "ratingAvg": 4.6,
-    "downloads": 77500,
+
+    {
+    "id": 21,
+    "image": "https://play-lh.googleusercontent.com/n109V9dur2NFwV7Fbr8lwlU-isXRR0K7Q-pvp1LCyRwTVP2DfJaR-dklmXzK0MhQuz9E=w240-h480-rw",
+     "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "description": "We update the Uber app as often as possible to make it faster and more reliable for you. This version includes several bug fixes and performance improvements. Love the app? Rate us! Your feedback keeps the Uber engine running. Any questions? Tap Help in the Uber app or visit help.uber.com",
+    "size": 23,
+    "reviews": 2500000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 47
-      },
-      {
-        "name": "2 star",
-        "count": 84
-      },
-      {
-        "name": "3 star",
-        "count": 141
-      },
-      {
-        "name": "4 star",
-        "count": 275
-      },
-      {
-        "name": "5 star",
-        "count": 466
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Twitter_icon.svg",
-    "title": "Demo App 29",
-    "companyName": "Demo Company 29",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 48,
-    "reviews": 1536,
-    "ratingAvg": 4.6,
-    "downloads": 80000,
-    "ratings": [
-      {
-        "name": "1 star",
-        "count": 48
-      },
-      {
-        "name": "2 star",
-        "count": 86
-      },
-      {
-        "name": "3 star",
-        "count": 144
-      },
-      {
-        "name": "4 star",
-        "count": 280
-      },
-      {
-        "name": "5 star",
-        "count": 474
-      }
-    ]
-  },
-  {
-    "id": 30,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/LinkedIn_icon.svg",
-    "title": "Demo App 30",
-    "companyName": "Demo Company 30",
-    "description": "This is a demo application for testing app store UI.",
-    "size": 49,
-    "reviews": 1573,
-    "ratingAvg": 4.7,
-    "downloads": 82500,
-    "ratings": [
-      {
-        "name": "1 star",
-        "count": 49
-      },
-      {
-        "name": "2 star",
-        "count": 88
-      },
-      {
-        "name": "3 star",
-        "count": 147
-      },
-      {
-        "name": "4 star",
-        "count": 285
-      },
-      {
-        "name": "5 star",
-        "count": 482
-      }
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1900000 }
     ]
   }
 ]

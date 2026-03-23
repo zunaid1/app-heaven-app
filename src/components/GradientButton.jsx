@@ -9,7 +9,7 @@ const GradientButton = () => {
     shadow-lg hover:shadow-2xl 
     hover:scale-105"
 		>
-			<i class="fa-brands fa-github"></i>
+			<i className="fa-brands fa-github"></i>
 			<a target="_blank" href="https://github.com/zunaid1/app-heaven-app">Contribute</a>
 		</button>
 	);
