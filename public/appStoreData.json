@@ -7,7 +7,7 @@
     "description": "The official Gmail app brings the best of Google to your Android phone or tablet with robust security and real-time notifications.",
     "size": 31,
     "reviews": 12500000,
-    "ratingAvg": 4.3,
+    "ratingAvg": 3.3,
     "downloads": 10000000000,
     "ratings": [
       { "name": "1 star", "count": 500000 },
@@ -43,7 +43,7 @@
     "description": "Simple, reliable, and private messaging and calling, available all over the world.",
     "size": 39,
     "reviews": 175000000,
-    "ratingAvg": 4.3,
+    "ratingAvg": 3.85,
     "downloads": 5000000000,
     "ratings": [
       { "name": "1 star", "count": 12000000 },
@@ -61,7 +61,7 @@
     "description": "Whether you’re working with teammates or organizing a community activity, Teams helps get things done.",
     "size": 65,
     "reviews": 6200000,
-    "ratingAvg": 4.6,
+    "ratingAvg": 3.6,
     "downloads": 100000000,
     "ratings": [
       { "name": "1 star", "count": 200000 },
@@ -79,7 +79,7 @@
     "description": "Watch TV shows and movies recommended just for you, including award-winning series and documentaries.",
     "size": 22,
     "reviews": 13000000,
-    "ratingAvg": 4.4,
+    "ratingAvg": 3.7,
     "downloads": 1000000000,
     "ratings": [
       { "name": "1 star", "count": 600000 },
@@ -97,7 +97,7 @@
     "description": "Listen to the songs you love and discover new music and podcasts from all over the world.",
     "size": 33,
     "reviews": 30000000,
-    "ratingAvg": 4.4,
+    "ratingAvg": 3.6,
     "downloads": 1000000000,
     "ratings": [
       { "name": "1 star", "count": 1500000 },
@@ -115,7 +115,7 @@
     "description": "Navigate your world faster and easier with real-time GPS navigation, traffic, and transit info.",
     "size": 54,
     "reviews": 17000000,
-    "ratingAvg": 4.3,
+    "ratingAvg": 3.3,
     "downloads": 5000000000,
     "ratings": [
       { "name": "1 star", "count": 900000 },
@@ -133,7 +133,7 @@
     "description": "Keep up with friends, share updates, and stay connected to communities that interest you.",
     "size": 52,
     "reviews": 135000000,
-    "ratingAvg": 4.1,
+    "ratingAvg": 3.5,
     "downloads": 5000000000,
     "ratings": [
       { "name": "1 star", "count": 15000000 },
@@ -151,7 +151,7 @@
     "description": "The digital town square. Host a space, share your thoughts, and stay updated on world news.",
     "size": 41,
     "reviews": 22000000,
-    "ratingAvg": 4.2,
+    "ratingAvg": 3.2,
     "downloads": 1000000000,
     "ratings": [
       { "name": "1 star", "count": 2000000 },
@@ -169,7 +169,7 @@
     "description": "Manage your professional identity. Build and engage with your professional network.",
     "size": 34,
     "reviews": 2600000,
-    "ratingAvg": 4.4,
+    "ratingAvg": 3.4,
     "downloads": 1000000000,
     "ratings": [
       { "name": "1 star", "count": 100000 },
@@ -187,7 +187,7 @@
     "description": "Get the official YouTube app for Android phones and tablets. See what the world is watching.",
     "size": 45,
     "reviews": 150000000,
-    "ratingAvg": 4.5,
+    "ratingAvg": 3.5,
     "downloads": 10000000000,
     "ratings": [
       { "name": "1 star", "count": 8000000 },
@@ -205,7 +205,7 @@
     "description": "TikTok is the destination for mobile videos. Find short, exciting, and spontaneous content.",
     "size": 95,
     "reviews": 60000000,
-    "ratingAvg": 4.4,
+    "ratingAvg": 3.8,
     "downloads": 1000000000,
     "ratings": [
       { "name": "1 star", "count": 4000000 },
@@ -223,7 +223,7 @@
     "description": "Google Drive, part of Google Workspace, is a safe place to back up and access all your files.",
     "size": 28,
     "reviews": 8000000,
-    "ratingAvg": 4.2,
+    "ratingAvg": 3.2,
     "downloads": 5000000000,
     "ratings": [
       { "name": "1 star", "count": 500000 },
@@ -241,7 +241,7 @@
     "description": "Browse, search, get product details, read reviews, and purchase millions of products.",
     "size": 58,
     "reviews": 3500000,
-    "ratingAvg": 4.3,
+    "ratingAvg": 3.3,
     "downloads": 500000000,
     "ratings": [
       { "name": "1 star", "count": 200000 },
@@ -277,7 +277,7 @@
     "description": "Watch livestream gaming videos, Esports, and any broadcast on your Android device.",
     "size": 60,
     "reviews": 5500000,
-    "ratingAvg": 4.5,
+    "ratingAvg": 3.5,
     "downloads": 100000000,
     "ratings": [
       { "name": "1 star", "count": 300000 },
@@ -295,7 +295,7 @@
     "description": "Pure instant messaging — simple, fast, secure, and synced across all your devices.",
     "size": 32,
     "reviews": 12000000,
-    "ratingAvg": 4.4,
+    "ratingAvg": 3.9,
     "downloads": 1000000000,
     "ratings": [
       { "name": "1 star", "count": 800000 },
@@ -369,7 +369,61 @@
     "description": "We update the Uber app as often as possible to make it faster and more reliable for you. This version includes several bug fixes and performance improvements. Love the app? Rate us! Your feedback keeps the Uber engine running. Any questions? Tap Help in the Uber app or visit help.uber.com",
     "size": 23,
     "reviews": 2500000,
-    "ratingAvg": 4.5,
+    "ratingAvg": 3.8,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1900000 }
+    ]
+  }, 
+     {
+    "id": 22,
+    "image": "https://play-lh.googleusercontent.com/M78HyakHaxKrjoeqYx41E9DXfVYYtx67nvc7Ks4G4zFQeaAJdGCi8gzzGSrHIwlrmnJS6zD9S4fAXqdEwfuHQAQ=w240-h480-rw",
+     "title": "CapCut",
+    "companyName": "Bytedance Pte. Ltd.",
+    "description": "CapCut offers easy-to-use video editing functions, in-APP fonts and effects, advanced features such as keyframe animation, smooth slow-motion, chroma key, and stabilization, to help you capture and snip moments. Create fancy videos with other unique features: auto captions, text-to-speech, motion tracking, and background removal. Show your personality and go viral on TikTok, YouTube, Instagram, WhatsApp, and Facebook!",
+    "size": 30,
+    "reviews": 2100000,
+    "ratingAvg": 3.9,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1900000 }
+    ]
+  }, 
+   {
+    "id": 23,
+    "image": "https://play-lh.googleusercontent.com/KxeSAjPTKliCErbivNiXrd6cTwfbqUJcbSRPe_IBVK_YmwckfMRS1VIHz-5cgT09yMo=w240-h480-rw",
+     "title": "SnapChat",
+    "companyName": "Snap Inc",
+    "description": "Snapchat is a fast and fun way to share the moment with your friends and family 👻 SNAP• Snapchat opens straight to the camera – just tap to take a photo or press and hold for video. • Express yourself with Lenses, Filters, Bitmoji and more! •Try out new Lenses created daily by the Snapchat community!",
+    "size": 30,
+    "reviews": 2400000,
+    "ratingAvg": 3.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1900000 }
+    ]
+  }, 
+   {
+    "id": 24,
+    "image": "https://play-lh.googleusercontent.com/XSoqEDquJuenUosbMN_EA2n2U5lsomPEUdCKj4j9bUdPfdWMCtRqXlyPgQ6zxQxWaDFIXrqbqyFjwXQ5FMYubw=w240-h480-rw",
+     "title": "CamScanner",
+    "companyName": "INTSIG PTE",
+    "description": "PPT Conversion Upgraded: Take photos and convert to PPT in one tap. · Improved full-screen preview for an edge-to-edge, distraction-free view. Book Mode Optimized: Smoother auto page-turn apture or easier scanning. Excel Conversion Improved: Detects and preserves stamps and images so key details aren't missed.",
+    "size": 35,
+    "reviews": 1900000,
+    "ratingAvg": 4.8,
     "downloads": 100000000,
     "ratings": [
       { "name": "1 star", "count": 150000 },

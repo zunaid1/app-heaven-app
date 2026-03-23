@@ -19,9 +19,9 @@ const Home = () => {
 
 
 		if (appData.length > 0) {
-			//const sorted = [...appData].sort((a, b) => b.ratingAvg - a.ratingAvg).slice(0, 8);
+			const sorted = [...appData].sort((a, b) => b.ratingAvg - a.ratingAvg).slice(0, 8);
 
-			setTopApps(appData);
+			setTopApps(sorted);
 		}
 
 	}, [appData])
@@ -60,7 +60,7 @@ const Home = () => {
 				<p>Explore All Trending Apps on the Market developed by us</p>
 
 				{/* Trending Apps Container */}
-				<div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-2'>
+				<div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-5'>
 					{
 						topApps.map(appCard =>
 							<AppCard
