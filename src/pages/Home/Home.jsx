@@ -30,8 +30,8 @@ const Home = () => {
 		<div>
 
 			<div className='flex justify-center items-center flex-col'>
-				<h1>We Build</h1>
-				<h1><span>Productive</span>Apps</h1>
+				<h1 className='text-6xl font-bold'>We Build</h1>
+				<h1 className='text-6xl font-bold'><span className='text-purple-700'>Productive</span> Apps</h1>
 				<p>At App Heaven, we craft innovative apps designed to make everyday life simpler, smarter, and more exiting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
 
 				<div>
