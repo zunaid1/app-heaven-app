@@ -13,7 +13,7 @@ const Navbar = () => {
 
 		<NavLink className={({ isActive }) => (isActive ? 'text-indigo-500 border-b-3 border-indigo-500 mr-6 text-xl font-bold' : 'mr-6 text-xl font-bold')} to="/allApps"> <i className="fa-brands fa-app-store"></i> Apps</NavLink>
 
-		<NavLink className={({ isActive }) => (isActive ? 'text-indigo-500 border-b-3 border-indigo-500 mr-6 text-xl font-bold' : 'mr-6 text-xl font-bold')} to="/myApps"><i className="fa-solid fa-download"></i> Installation </NavLink>
+		<NavLink className={({ isActive }) => (isActive ? 'text-indigo-500 border-b-3 border-indigo-500 mr-6 text-xl font-bold' : 'mr-6 text-xl font-bold')} to="/installedApps"><i className="fa-solid fa-download"></i> Installation </NavLink>
 
 
 
