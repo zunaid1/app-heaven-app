@@ -8,74 +8,79 @@ const InstalledApps = () => {
 	const [allApps, setAllApps] = useState([])
 	const [installedApps, setInstalledApps] = useState([])
 	const data = useLoaderData();
-	console.log(data);
+	//console.log(data);
 	const [sortValue, setSortValue] = useState("");
 
 
 	useEffect(() => {
+
 		setAllApps(data);
+
 		const storedApps = getInstallationList();
 
 		const installed = data.filter(app => storedApps.includes(app.id));
 
 		setInstalledApps(installed);
 
-	}, [data, installedApps])
+	}, [data])
+
+
+
 
 	const handleUninstallButton = (id) => {
-		console.log("Uninstall Buttion Clicked: ", id);
 
 		const storedApps = getInstallationList();
 
 		const remainingApps = storedApps.filter(appId => appId !== id);
+
 		localStorage.setItem("installList", JSON.stringify(remainingApps));
-		//addToInstallationList(remainingApps);
-		setInstalledApps(remainingApps);
 
+		const updatedInstalled = allApps.filter(app =>
+			remainingApps.includes(app.id)
+		);
 
-		toast.warning(`Uninstalling....`, {
+		setInstalledApps(updatedInstalled);
+
+		toast.warning(`App Uninstalled`, {
 			position: "top-right",
 			autoClose: 2000,
-			hideProgressBar: false,
-			closeOnClick: true,
-			pauseOnHover: true,
-			draggable: true,
 			theme: "colored"
 		});
-
 	}
 
 
 	const handleChange = (e) => {
-		setSortValue(e.target.value);
-		console.log(e.target.value);
 
+		const value = e.target.value;
 
-		//===================
-		if (sortValue === "rating") {
-			installedApps.sort((a, b) => b.ratingAvg - a.ratingAvg)
+		setSortValue(value);
+
+		let sortedApps = [...installedApps];
+
+		if (value === "rating") {
+			sortedApps.sort((a, b) => b.ratingAvg - a.ratingAvg);
 		}
 
-		if (sortValue === "size") {
-			installedApps.sort((a, b) => b.size - a.size)
+		if (value === "size") {
+			sortedApps.sort((a, b) => b.size - a.size);
 		}
-		//===================
+
+		setInstalledApps(sortedApps);
 	}
-
-
 
 	return (
 		<div className='bg-slate-100 py-5'>
 			<ToastContainer />
-
-			{/* Top Section */}
-			<section
+			{
+				installedApps.length > 0 ? (
+					<div>
+						<section
 				onChange={handleChange}
 				value={sortValue}
 
 
 			>
-				{/* Caption */}
+
 
 				<div className='text-center space-y-5'>
 					<h1 className=' font-bold text-4xl'>Your Installed Apps</h1>
@@ -86,7 +91,7 @@ const InstalledApps = () => {
 
 
 
-				{/* <h1>{allApps.length}</h1> */}
+
 			</section>
 
 			<section>
@@ -94,8 +99,9 @@ const InstalledApps = () => {
 					<h2 className='font-bold'>{installedApps.length} Apps Found</h2>
 
 					<select
-						className="select select-bordered w-40"
-						onChange={(e) => setSortValue(e.target.value)}
+									className="select select-bordered w-40" 
+									onChange={handleChange}
+									defaultValue="size"
 					>
 
 						<option disabled selected>
@@ -132,11 +138,43 @@ const InstalledApps = () => {
 
 				</div>
 
+						</section>
+					</div>
+
+
+
+				)
 
 
 
 
-			</section>
+					: (
+
+
+						<div className="text-center py-10">
+
+							<h2 className="text-2xl font-semibold text-gray-500">
+								No Apps Installed
+							</h2>
+
+							<p className="text-gray-400 mt-2">
+								You haven't installed any apps yet. Install apps to see them here.
+							</p>
+
+						</div>
+
+
+					)
+
+			}
+
+
+
+
+
+
+
+
 		</div>
 	);
 };
