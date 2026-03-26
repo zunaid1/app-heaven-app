@@ -11,8 +11,8 @@ const Root = () => {
 				<Navbar />
 			</header>
 
-			<main className="flex-1 overflow-y-auto pt-16 pb-14">
-				<div className='max-w-7xl mx-auto px-4'>
+			<main className="flex-1 overflow-y-auto pt-8 pb-14">
+				<div className=''>
 					<Outlet></Outlet>
 				</div>
 				

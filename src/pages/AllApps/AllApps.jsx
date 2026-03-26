@@ -1,12 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router';
 import AppCard from '../../components/AppCard';
+import notFoundImg from '../../assets/App-Error.png';
+
 
 const AllApps = () => {
 	const data = useLoaderData([]);
 
+	const [searchText, setSearchText] = useState("");
+	const [filteredApps, setFilteredApps] = useState(data);
 
+	const handleSearchBox = (e) => {
+		const value = e.target.value;
+		setSearchText(value);
 
+		const searchResult = data.filter(app =>
+			app.title.toLowerCase().includes(value.toLowerCase()) ||
+			app.companyName.toLowerCase().includes(value.toLowerCase())
+		);
+
+		setFilteredApps(searchResult);
+
+	}
 
 
 	return (
@@ -19,11 +34,12 @@ const AllApps = () => {
 
 
 				<div className='w-full  flex flex-row justify-between items-center'>
-					<h1 className='text-xl font-bold'>({data.length}) Apps Found</h1>
+					<h1 className='text-xl font-bold'>({filteredApps.length}) Apps Found</h1>
 
 					<div className="relative w-80">
 
-						<input
+						<input 
+							onChange={handleSearchBox}
 							type="text"
 							placeholder="Search..."
 							className="w-full p-3 pl-10 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
@@ -52,12 +68,27 @@ const AllApps = () => {
 			{/* Apps Container */}
 			<section className='my-5 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-5'>
 				{
-					data.map(appCard =>
+					filteredApps.length > 0 ? (
+
+						filteredApps.map(appCard =>
 						<AppCard
 							key={appCard.id}
 							appCard={appCard}>
 
 						</AppCard>)
+
+					) :
+						(
+							<div className="col-span-full text-center py-10 flex justify-center items-center">
+
+								<img src={notFoundImg} alt="" />
+
+							</div>
+
+						)
+
+
+
 				}
 			</section>
 		</div>

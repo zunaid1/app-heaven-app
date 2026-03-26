@@ -20,7 +20,7 @@ const InstalledApps = () => {
 
 		setInstalledApps(installed);
 
-	}, [data])
+	}, [data, installedApps])
 
 	const handleUninstallButton = (id) => {
 		console.log("Uninstall Buttion Clicked: ", id);
@@ -33,7 +33,7 @@ const InstalledApps = () => {
 		setInstalledApps(remainingApps);
 
 
-		toast.success(`Uninstalling....`, {
+		toast.warning(`Uninstalling....`, {
 			position: "top-right",
 			autoClose: 2000,
 			hideProgressBar: false,
